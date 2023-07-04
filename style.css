@@ -8,33 +8,42 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top {
     height: 1024px;
-background-image: url(img/Rectangle\ 1.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 120px;
+    padding-top: 218px;
+    
 }
 
 .title {
     color: #FFFFFF;
     font-size: 64px;
+    margin-bottom: 32px;
+    max-width: 788px;
 }
 
-.top {
-    padding-left: 120px;
-    padding-top: 218px;
-}
 
 .top__text {
     color: #FFFFFF;
     font-size: 18px;
-
-    &__button {
-        
-
+    margin-bottom: 44px;
+    max-width: 481px;
+    font-weight: 300;
     }
+
+.top__text_text {
+    font-weight: 700;
 }
+
 .top__button {
     font-size: 18px;
     color: #FFFFFF;
@@ -43,10 +52,20 @@ background-size: cover;
     #9C0332;
     width: 234px;
     height: 48px;
+    
 }
 
-.footer {
+.product__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
     height: 556px;
     background-image: url(img/Rectangle\ 5.jpg);
+}
+
+
+.product {
+    border-radius: 16px;
+    
 }
 

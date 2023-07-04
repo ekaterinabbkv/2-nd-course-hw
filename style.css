@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+    height: 1024px;
+background-image: url(img/Rectangle\ 1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.top {
+    padding-left: 120px;
+    padding-top: 218px;
+}
+
+.top__text {
+    color: #FFFFFF;
+    font-size: 18px;
+
+    &__button {
+        
+
+    }
+}
+.top__button {
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: 
+    #9C0332;
+    width: 234px;
+    height: 48px;
+}
+
+.footer {
+    height: 556px;
+    background-image: url(img/Rectangle\ 5.jpg);
+}
+

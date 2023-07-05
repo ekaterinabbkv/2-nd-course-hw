@@ -19,30 +19,31 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-left: 120px;
-    padding-top: 218px;
-    
 }
 
 .title {
     color: #FFFFFF;
     font-size: 64px;
-    margin-bottom: 32px;
     max-width: 788px;
+    margin-bottom: 32px;
+    
 }
 
+.top {
+    padding-left: 120px;
+    padding-top: 218px;
+}
 
 .top__text {
     color: #FFFFFF;
     font-size: 18px;
     margin-bottom: 44px;
-    max-width: 481px;
-    }
+    max-width: 481px;   
 
-
+}
 
 .top__text_new {
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .top__button {
@@ -53,7 +54,6 @@ body {
     #9C0332;
     width: 234px;
     height: 48px;
-    font-weight: 400;
 }
 
 .product__content {
@@ -64,9 +64,7 @@ body {
     background-image: url(img/Rectangle\ 5.jpg);
 }
 
-
 .product {
     border-radius: 16px;
-    
 }
 

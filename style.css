@@ -40,6 +40,9 @@ body {
     }
 
 .top__text_text {
+}
+
+.top__text_new {
     font-weight: 700;
 }
 
@@ -52,6 +55,7 @@ body {
     width: 234px;
     height: 48px;
     
+    font-weight: 400;
 }
 
 .product__content {

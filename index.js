@@ -1,62 +1,72 @@
+//Задание 1
 /*let a = 10;
-a = 20;
 alert (10);
-alert (20);*/
+a = 20;
+alert (20);
 
+//Задание 2
 /*let year = 2007
-alert (2007);*/
+alert (year);
 
-/*let name = 'Brendan Eich';
-alert (name);*/
+//Задание 3
+let name = 'Brendan Eich';
+alert (name);
 
-/*let b = 10;
+//Задание 4
+let b = 10;
 let c = 2;
 alert (b + c);
 alert (b - c);
 alert (b * c);
-alert (b / c);*/
+alert (b % c);
 
-/*let a = 2**5;
+//Задание 5
+let a = 2**5;
 let result = a;
-alert (result);*/
+alert (result);
 
-/*let a = 9;
+//Задание 6
+let a = 9;
 let b = 2;
-alert (9 / 2);*/
+alert (9 / 2);
 
-/*let num = 1;
+//Задание 7
+let num = 1;
 num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
-alert(num);*/
+num ++;
+num --;
+alert(num);
 
-/*let age;
+//Задание 8
+let age;
 age = prompt ('Сколько вам лет?')
-alert (age);*/
+alert (age);
 
-/*const user = {
+//Задание 9
+const user = {
     name: 'Katya',
     age: 30,
     isAdmin: true
 }
-user.cityOfResidence = 'Якутск';
+
+//Задание 9.1
+user["city of residence"] = 'Якутск';
+
+//Задание 9.2
 user.age = 50;
-delete user.cityOfResidence;
+
+//Задание 9.3
+delete user[city of residence];
+
+//Задание 9.4
 let info = prompt ('Какую информацию хотите узнать о пользователе');
 console.log(user[info]);
-alert (user[info]);*/
+alert (user[info]);
 
-/*let userName;
+//Задание 10
+let userName;
 userName = prompt ('Введите ваше имя');
 alert(`Привет, ${userName}!`);*/
-
-
-
-
-
-
-
-

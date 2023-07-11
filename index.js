@@ -59,7 +59,7 @@ user["city of residence"] = 'Якутск';
 user.age = 50;
 
 //Задание 9.3
-delete user[city of residence];
+delete user["city of residence"];
 
 //Задание 9.4
 let info = prompt ('Какую информацию хотите узнать о пользователе');

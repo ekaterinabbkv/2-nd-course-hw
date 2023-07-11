@@ -1,70 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .top {
-    height: 1024px;
-    background-image: url(img/Rectangle\ 1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 1024px;
+  background-image: url(img/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
-    color: #FFFFFF;
-    font-size: 64px;
-    max-width: 788px;
-    margin-bottom: 32px;
-    
+  color: #FFFFFF;
+  font-size: 64px;
+  max-width: 788px;
+  margin-bottom: 32px;
 }
 
 .top {
-    padding-left: 120px;
-    padding-top: 218px;
+  padding-left: 120px;
+  padding-top: 218px;
 }
 
 .top__text {
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-bottom: 44px;
-    max-width: 481px;   
-
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-bottom: 44px;
+  max-width: 481px;
 }
 
 .top__text_new {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.top__button {
-    font-size: 18px;
-    color: #FFFFFF;
-    border-radius: 30px;
-    background-color: 
-    #9C0332;
-    width: 234px;
-    height: 48px;
+.button {
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  background-color: #9C0332;
+  width: 234px;
+  height: 48px;
 }
 
 .product__content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    height: 556px;
-    background-image: url(img/Rectangle\ 5.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  height: 556px;
+  background-image: url(img/Rectangle\ 5.jpg);
 }
 
 .product {
-    border-radius: 16px;
+  border-radius: 16px;
 }
 
+.section {
+  background-image: url(img/Rectangle\ 5.jpg);
+  height: 800px;
+  padding-top: 282px;
+  padding-bottom: 282px;
+  display: flex;
+  align-items: center;
+}
+.section__heading {
+  width: 584px;
+  padding-right: 135px;
+}
+
+.heading {
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+.heading__text {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+.heading__img {
+  width: 485px;
+  height: 333px;
+}/*# sourceMappingURL=style.css.map */

@@ -65,6 +65,8 @@ body {
 }
 
 .product {
+  margin-top: 128px;
+  margin-bottom: 128px;
   border-radius: 16px;
   width: 378px;
   height: 300px;
@@ -79,6 +81,7 @@ body {
   padding-top: 282px;
   padding-bottom: 282px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .section__heading {
@@ -100,4 +103,28 @@ body {
 .heading__img {
   width: 485px;
   height: 333px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .button {
+    display: block;
+    margin: auto;
+  }
+  .product {
+    width: 343px;
+  }
 }/*# sourceMappingURL=style.css.map */

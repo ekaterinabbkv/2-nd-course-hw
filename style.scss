@@ -14,7 +14,6 @@ body {
 }
 
 .top {
-    height: 1024px;
     background-image: url(img/Rectangle\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -25,21 +24,21 @@ body {
     color: #FFFFFF;
     font-size: 64px;
     max-width: 788px;
-    margin-bottom: 32px;
-    
+    margin-bottom: 32px;    
 }
 
-.top {
+.top__title {
     padding-left: 120px;
     padding-top: 218px;
+    padding-bottom: 682px;
 }
+
 
 .top__text {
     color: #FFFFFF;
     font-size: 18px;
     margin-bottom: 44px;
     max-width: 481px;   
-
 }
 
 .top__text_new {
@@ -61,9 +60,7 @@ body {
 
 .product__content {
     display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    height: 556px;
+    gap: 32px;   
     background-image: url(img/Rectangle\ 5.jpg);
 }
 
@@ -74,17 +71,16 @@ body {
     width: 378px;
     height: 300px;
     &:hover {
-        border: 3px solid #44D2FF;
+        outline: 3px solid #44D2FF;
     }
 }
 
 .section {
-    background-image: url(img/Rectangle\ 5.jpg);
-    height: 800px;
+    background-image: url(img/Rectangle\ 6.jpg);
     padding-top: 282px;
     padding-bottom: 282px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     &__heading {
         width: 584px;

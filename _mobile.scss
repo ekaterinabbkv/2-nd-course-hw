@@ -5,6 +5,11 @@
         padding-right: 16px;
     }
     
+    .top__title {
+        padding-top: 238px;
+        padding-bottom: 238px;
+    }
+
     .title {
         font-size: 32px;
         line-height: 39px;
@@ -21,9 +26,35 @@
         display: block;
         margin: auto;
     }
+
+    .product__content {
+        display: flex;
+        flex-direction: column;
+        
+    }
     
     .product {
         width: 343px;
+        height: 300px;
+        
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 32px;
+        &__text {
+            font-size: 16px;
+        }
+    }
+    .img {
+        width: 344px;
+        height: 236px;
     }
     }
     

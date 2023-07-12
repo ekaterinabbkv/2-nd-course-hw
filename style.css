@@ -14,7 +14,6 @@ body {
 }
 
 .top {
-  height: 1024px;
   background-image: url(img/Rectangle\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -28,9 +27,10 @@ body {
   margin-bottom: 32px;
 }
 
-.top {
+.top__title {
   padding-left: 120px;
   padding-top: 218px;
+  padding-bottom: 682px;
 }
 
 .top__text {
@@ -58,9 +58,7 @@ body {
 
 .product__content {
   display: flex;
-  flex-wrap: wrap;
   gap: 32px;
-  height: 556px;
   background-image: url(img/Rectangle\ 5.jpg);
 }
 
@@ -72,16 +70,15 @@ body {
   height: 300px;
 }
 .product:hover {
-  border: 3px solid #44D2FF;
+  outline: 3px solid #44D2FF;
 }
 
 .section {
-  background-image: url(img/Rectangle\ 5.jpg);
-  height: 800px;
+  background-image: url(img/Rectangle\ 6.jpg);
   padding-top: 282px;
   padding-bottom: 282px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 .section__heading {
@@ -110,6 +107,10 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .top__title {
+    padding-top: 238px;
+    padding-bottom: 238px;
+  }
   .title {
     font-size: 32px;
     line-height: 39px;
@@ -124,7 +125,27 @@ body {
     display: block;
     margin: auto;
   }
+  .product__content {
+    display: flex;
+    flex-direction: column;
+  }
   .product {
     width: 343px;
+    height: 300px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    text-align: center;
+    font-size: 32px;
+  }
+  .heading__text {
+    font-size: 16px;
+  }
+  .img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -42,17 +42,23 @@
     .section {
         display: flex;
         flex-direction: column;
-        
+        gap: 64px;
+        padding-top: 51px;
     }
 
     .heading {
         text-align: center;
         font-size: 32px;
         &__text {
-            font-size: 16px;
+            font-size: 14px;
         }
     }
     .img {
+        width: 344px;
+        height: 236px;
+    }
+
+    .heading__img {
         width: 344px;
         height: 236px;
     }

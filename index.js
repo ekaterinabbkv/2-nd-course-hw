@@ -58,3 +58,17 @@ switch (monthNumber) {
         console.log ('Такого месяца не существует')
         break;
 }*/
+
+//Задание 6
+/*адаптивный сайт*/
+
+//Задание 7
+/*let number = prompt ('Пожалуйста, введите любое число');
+console.log (isNaN(number));*/
+
+/*if (number % 2) {
+    alert ('Число не четное');
+} else {
+    alert ('Число четное');
+}*/
+

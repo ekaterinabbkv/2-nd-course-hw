@@ -55,7 +55,7 @@ body {
   background-color: #EB443F;
 }
 
-.product__content {
+.game__box {
   padding-top: 128px;
   padding-bottom: 128px;
   display: flex;
@@ -63,9 +63,24 @@ body {
   background-image: url(img/Rectangle\ 5.jpg);
 }
 
+.game {
+  position: relative;
+}
+.game__title {
+  position: absolute;
+  left: 32px;
+  top: 236px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
 .product {
   border-radius: 16px;
-  width: 378px;
+  width: 379px;
   height: 300px;
 }
 .product:hover {
@@ -123,9 +138,13 @@ body {
     display: block;
     margin: auto;
   }
-  .product__content {
+  .game__box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .game__title {
+    left: 16px;
   }
   .product {
     width: 343px;

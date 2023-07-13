@@ -57,7 +57,7 @@ body {
     }    
 }
 
-.product__content {
+.game__box {
     padding-top: 128px;
     padding-bottom: 128px;
     display: flex;
@@ -65,9 +65,26 @@ body {
     background-image: url(img/Rectangle\ 5.jpg);
 }
 
+.game {
+    position: relative;
+
+    &__title {
+        position: absolute;
+        left: 32px;
+        top: 236px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+
+    }
+}
+
 .product {
     border-radius: 16px;
-    width: 378px;
+    width: 379px;
     height: 300px;
     &:hover {
         outline: 3px solid #44D2FF;

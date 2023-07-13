@@ -27,10 +27,15 @@
         margin: auto;
     }
 
-    .product__content {
+    .game__box {
         display: flex;
         flex-direction: column;
-        
+        justify-content: center;
+                
+    }
+
+    .game__title {
+        left: 16px;
     }
     
     .product {

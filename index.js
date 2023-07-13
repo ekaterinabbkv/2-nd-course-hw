@@ -1,7 +1,7 @@
 //Задание 1
 /*let password = 'пароль';
 let message = prompt ('Введите пароль');
-if (message === 'пароль') {
+if (message === password) {
     alert ('Пароль введен верно');
 } else {
     alert ('Пароль введен не правильно');
@@ -10,25 +10,27 @@ if (message === 'пароль') {
 //Задание 2
 /*let c = 10;
 if (c>=0 && c<=10) {
-    alert ('верно');
+    console.log ('верно');
 } else {
-    alert ('Не верно')
+    console.log ('Не верно')
 }*/
 
 //Задание 3
 /*let d = 2;
 let e = 200;
 if (d>100 || e>100) {
-    alert ('Верно');
+    console.log ('Верно');
 } else {
-    alert ('Не верно');    
+    console.log ('Не верно');    
 }*/
 
 //Задание 4
 /*let a = '2';
 let b = '3';
 // Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
-alert(2 + 3);*/
+a = Number(a);
+b = Number (b);
+alert(a + b);*/
 
 //Задание 5
 /*let monthNumber = prompt ('Введите номер месяца');
@@ -64,11 +66,14 @@ switch (monthNumber) {
 
 //Задание 7
 /*let number = prompt ('Пожалуйста, введите любое число');
-console.log (isNaN(number));*/
+console.log (isNaN(number));
 
-/*if (number % 2) {
-    alert ('Число не четное');
-} else {
-    alert ('Число четное');
-}*/
+if (isNaN(number)) {
+    alert('Не является числом');
+  }
+  else if (number % 2) {
+      alert ('Число не четное');
+  } else {
+      alert ('Число четное');
+  }*/
 

@@ -76,4 +76,3 @@ if (isNaN(number)) {
   } else {
       alert ('Число четное');
   }*/
-

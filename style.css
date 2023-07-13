@@ -71,6 +71,10 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .top__title {
+    padding-top: 238px;
+    padding-bottom: 238px;
+  }
   .title {
     font-size: 32px;
     line-height: 39px;
@@ -81,11 +85,41 @@ body {
     line-height: 22px;
     text-align: center;
   }
-  .top__button {
+  .button {
     display: block;
     margin: auto;
   }
+  .game__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .game__title {
+    left: 16px;
+  }
   .product {
     width: 343px;
+    height: 300px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 51px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 32px;
+  }
+  .heading__text {
+    font-size: 14px;
+  }
+  .img {
+    width: 344px;
+    height: 236px;
+  }
+  .heading__img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */

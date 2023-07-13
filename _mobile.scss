@@ -1,28 +1,70 @@
 @media (max-width: 767px) {
 
-.center {
-    padding-left: 16px;
-    padding-right: 16px;
-}
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .top__title {
+        padding-top: 238px;
+        padding-bottom: 238px;
+    }
 
-.title {
-    font-size: 32px;
-    line-height: 39px;
-    text-align: center;
-}
+    .title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    
+    .top__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+    .button {
+        display: block;
+        margin: auto;
+    }
 
-.top__text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-}
+    .game__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+                
+    }
 
-.top__button {
-    display: block;
-    margin: auto;
-}
+    .game__title {
+        left: 16px;
+    }
+    
+    .product {
+        width: 343px;
+        height: 300px;        
+    }
 
-.product {
-    width: 343px;
-}
-}
+    .section {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        padding-top: 51px;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 32px;
+        &__text {
+            font-size: 14px;
+        }
+    }
+    .img {
+        width: 344px;
+        height: 236px;
+    }
+
+    .heading__img {
+        width: 344px;
+        height: 236px;
+    }
+    }
+    

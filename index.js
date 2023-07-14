@@ -48,4 +48,4 @@ console.log (num);*/
 //Задание 6
 
 /*let a = 5;
-let dayNumber = 31;
+let dayNumber = 31;*/

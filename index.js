@@ -47,5 +47,10 @@ console.log (num);*/
 
 //Задание 6
 
-/*let a = 5;
-let dayNumber = 31;*/
+/*let friday = 7;
+
+do {
+    friday = friday+7;
+    friday++;
+    console.log ('Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.');
+    } while (friday <= 31)*/

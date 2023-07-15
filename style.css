@@ -165,6 +165,7 @@ body {
   .img {
     width: 344px;
     height: 236px;
+    order: 1;
   }
   .heading__img {
     width: 344px;

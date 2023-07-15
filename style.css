@@ -94,9 +94,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.section__heading {
-  padding-right: 135px;
+  gap: 135px;
 }
 
 .heading {
@@ -162,6 +160,7 @@ body {
   }
   .heading__text {
     font-size: 14px;
+    text-align: center;
   }
   .img {
     width: 344px;

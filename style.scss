@@ -98,11 +98,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__heading {
-        padding-right: 135px;
-        
-        
-    }
+    gap: 135px;
+   
 }
 
 .heading {    

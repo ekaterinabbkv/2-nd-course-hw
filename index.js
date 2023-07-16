@@ -50,6 +50,6 @@ console.log (num);*/
 /*let friday = 7;
 do {
     console.log (`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
-    friday = friday+6;
+    friday = friday+7;
     friday++;
     } while (friday <= 31);*/

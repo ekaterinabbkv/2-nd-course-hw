@@ -48,9 +48,8 @@ console.log (num);*/
 //Задание 6
 
 /*let friday = 7;
-
 do {
-    friday = friday+7;
+    console.log (`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    friday = friday+6;
     friday++;
-    console.log ('Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.');
-    } while (friday <= 31)*/
+    } while (friday <= 31);*/

@@ -1,78 +1,55 @@
 //Задание 1
-/*let password = 'пароль';
-let message = prompt ('Введите пароль');
-if (message === password) {
-    alert ('Пароль введен верно');
-} else {
-    alert ('Пароль введен не правильно');
+
+/*let i = 0;
+while (i < 2) {
+    console.log ('Привет');
+    i++;
 }*/
 
 //Задание 2
-/*let c = 10;
-if (c>=0 && c<=10) {
-    console.log ('верно');
-} else {
-    console.log ('Не верно')
+
+/*let i = 1;
+while (i <= 5) {
+    console.log (i);
+    i++;
 }*/
 
 //Задание 3
-/*let d = 2;
-let e = 200;
-if (d>100 || e>100) {
-    console.log ('Верно');
-} else {
-    console.log ('Не верно');    
+/*let i = 7;
+while (i <= 22) {
+    console.log (i);
+    i++;
 }*/
 
 //Задание 4
-/*let a = '2';
-let b = '3';
-// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
-a = Number(a);
-b = Number (b);
-alert(a + b);*/
 
-//Задание 5
-/*let monthNumber = prompt ('Введите номер месяца');
+/*const obj = {
+    'Коля' : 200,
+    'Вася' : 300,
+    'Петя' : 400
+};
 
-switch (monthNumber) {
-    case '1':
-    case '2':
-    case '12':
-        console.log ('Зима')
-        break;
-    case '3':
-    case '4':
-    case '5':
-        console.log ('Весна')
-        break;  
-    case '6':
-    case '7':
-    case '8':
-        console.log ('Лето')
-        break;
-    case '9':
-    case '10':
-    case '11':
-        console.log ('Осень')
-        break;
-    default:
-        console.log ('Такого месяца не существует')
-        break;
+for (key in obj) {
+        console.log ([key]+ '- зарплата ' + obj[key] + ' долларов.');
+    
 }*/
 
+//Задание 5
+
+/*let n = 1000;
+let num = 0;
+while (n >= 50) {
+    n /= 2;
+    num++;
+    }
+console.log (n);
+console.log (num);*/
+
 //Задание 6
-/*адаптивный сайт*/
 
-//Задание 7
-/*let number = prompt ('Пожалуйста, введите любое число');
-console.log (isNaN(number));
-
-if (isNaN(number)) {
-    alert('Не является числом');
-  }
-  else if (number % 2) {
-      alert ('Число не четное');
-  } else {
-      alert ('Число четное');
-  }*/
+/*let friday = 7;
+do {
+    console.log (`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    friday = friday+7;
+    friday++;
+    } while (friday <= 31);*/

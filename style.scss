@@ -18,6 +18,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    &__text {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-bottom: 44px;
+        max-width: 481px;  
+        line-height: 32px; 
+    }
     
 }
 
@@ -33,18 +40,10 @@ body {
     padding-bottom: 682px;
 }
 
-
-.top__text {
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-bottom: 44px;
-    max-width: 481px;  
-    line-height: 32px; 
-}
-
 .top__text_new {
     font-weight: 700;
 }
+
 
 .button {
     font-size: 18px;
@@ -54,6 +53,7 @@ body {
     #9C0332;
     width: 234px;
     height: 48px;
+    
     &:hover {
        background-color: #EB443F;
     }    

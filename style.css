@@ -19,6 +19,13 @@ body {
   background-position: center;
   background-size: cover;
 }
+.top__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-bottom: 44px;
+  max-width: 481px;
+  line-height: 32px;
+}
 
 .title {
   color: #FFFFFF;
@@ -30,14 +37,6 @@ body {
 .top__title {
   padding-top: 218px;
   padding-bottom: 682px;
-}
-
-.top__text {
-  color: #FFFFFF;
-  font-size: 18px;
-  margin-bottom: 44px;
-  max-width: 481px;
-  line-height: 32px;
 }
 
 .top__text_new {

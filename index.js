@@ -64,7 +64,7 @@ printMessage();*/
 
     if (isNaN(a) || isNaN(b)) {
         
-        console.log('Одно или оба значения не являются числом');
+        return 'Одно или оба значения не являются числом';
 
     }
         else {
@@ -75,7 +75,7 @@ printMessage();*/
 
 }
 
-console.log(num(4 , 'и'));*/
+console.log(num(4 , 5));*/
 
 
 //Задание 6
@@ -122,6 +122,11 @@ console.log(circle2.getPerimeterRheuf());*/
 
 
 //Задание 8
+
+function showMessage() {
+    alert("Поехали!");
+}
+
 /*function getSeason(numberMonth) {
     if (isNaN(numberMonth)) {
         return 'Вы ввели не число';

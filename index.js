@@ -119,3 +119,29 @@ console.log(circle1.getAreaRheuf());
 console.log(circle1.getPerimeterRheuf());
 console.log(circle2.getAreaRheuf());
 console.log(circle2.getPerimeterRheuf());*/
+
+
+//Задание 8
+/*function getSeason(numberMonth) {
+    if (isNaN(numberMonth)) {
+        return 'Вы ввели не число';
+    }
+
+    if (numberMonth === 12 || (numberMonth >= 1 && numberMonth <=2)) {
+        season = 'Зима';
+    }
+    else if (numberMonth >= 3 && numberMonth <= 5) {
+        season = 'Весна';
+    }
+    else if (numberMonth >= 6 && numberMonth <= 8) {
+        season = 'Лето';
+    }
+    else if (numberMonth >= 9 && numberMonth <= 11) {
+        season = 'Осень';
+    }
+    else {
+        return 'Вы ввели число меньше 1 или больше 12';
+    }
+    return season;
+}
+console.log(getSeason(1));*/

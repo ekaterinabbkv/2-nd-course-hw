@@ -60,6 +60,62 @@ printMessage();*/
 
 //Задание 5
 
-function num(a , b) {
-    
+/*function num(a , b) {
+
+    if (isNaN(a) || isNaN(b)) {
+        
+        console.log('Одно или оба значения не являются числом');
+
+    }
+        else {
+
+        return a * b;
+
+    }
+
 }
+
+console.log(num(4 , 'и'));*/
+
+
+//Задание 6
+
+/*let num = prompt ('Введите число');
+
+if (isNaN(num)) {
+    function answer(params) {
+        console.log('Переданный параметр не является числом');
+    }
+} else {
+    function answer(params) {
+        console.log(`${num} в кубе равняется ${num ** 3}`);
+    }
+}
+answer();*/
+
+//Задание 7
+
+/*function getArea() {
+    return 3.14 * this.radius **2; 
+}
+
+function getPerimeter() {
+    return 2 * 3.14 * this.radius;
+}
+
+const circle1 = {
+    radius: 10,
+    getAreaRheuf: getArea,
+    getPerimeterRheuf: getPerimeter,
+};
+
+const circle2 = {
+    radius: 15,
+    getAreaRheuf: getArea,
+    getPerimeterRheuf: getPerimeter,
+};
+
+console.log(circle1.getAreaRheuf());
+console.log(circle1.getPerimeterRheuf());
+console.log(circle2.getAreaRheuf());
+console.log(circle2.getPerimeterRheuf());*/

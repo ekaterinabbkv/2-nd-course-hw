@@ -123,28 +123,23 @@ console.log(circle2.getPerimeterRheuf());*/
 
 //Задание 8
 
-
 function seasons() {
-    const answer = prompt('Введите номер месяца (от 1 до 12)');
-    if (isNaN(answer)) {
-        return 'Вы ввели не число';
-    }
-
-    if (answer === 12 || (answer >= 1 && answer <=2)) {
-        season = 'Зима';
+    let answer = prompt('Введите номер месяца (от 1 до 12)');
+    
+    if (answer = 12 || (answer >= 1 && answer <=2)) {
+        alert('Зима');
     }
     else if (answer >= 3 && answer <= 5) {
-        season = 'Весна';
+        alert('Весна');
     }
     else if (answer >= 6 && answer <= 8) {
-        season = 'Лето';
+        alert('Лето');
     }
     else if (answer >= 9 && answer <= 11) {
-        season = 'Осень';
+        alert('Осень');;
     }
     else {
-        return 'Вы ввели число меньше 1 или больше 12';
+        alert('Вы ввели не подходящее значение');
     }
-    return season;
+        
 }
-console.log(seasons());

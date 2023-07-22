@@ -43,25 +43,20 @@ console.log(arr);*/
 
 //Задача 7
 
-let arr = [9, 8, 7, 6, 5];
+/*let arr = [9, 8, 7, 6, 5];
 
 let num = prompt ('Введи число от 0 до 9?');
 
-if (num 5 => 9) {
-    function printMessage() {
+if (num >= 5 && num <= 9) {
+    function numSearch() {
         alert('Угадал!');
     }
 } else {
-    function printMessage() {
+    function numSearch() {
         alert('Не угадал!');
     }
 }
-if (age < 0) {
-    function printMessage() {
-        console.log('Вы ввели неправильное значение');
-    }
-}
-printMessage();
+numSearch();*/
 
 //Задача 8
 /*let letters = 'abcdef';
@@ -76,7 +71,7 @@ let num = [4, 5, 6];
 let res = arr.concat(num);
 console.log(res);*/
 
-//Задача 10 ПЕРЕПРОВЕРЬ
+//Задача 10 
 /*let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let result = 0;
 for (let i = 0; i < array.length; i++) {
@@ -100,16 +95,18 @@ console.log(wordLenght);*/
 //Задача 13
 /*let nums = [-1, 0, 5, -10, 56];
 let num = [-25, 25, 0, -1000, -2];
+
 function filterPositive(array) {
     array.forEach(function(item){
-        if(item < 0){
+
+    if(item < 0){
             console.log(item);
-        }
-      });
+    }
+    });
     }
     
-    filterPositive(nums);
-    filterPositive(num);*/
+filterPositive(nums);
+filterPositive(num);*/
 
 
 

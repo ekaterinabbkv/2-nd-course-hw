@@ -43,7 +43,25 @@ console.log(arr);*/
 
 //Задача 7
 
-[9, 8, 7, 6, 5];
+let arr = [9, 8, 7, 6, 5];
+
+let num = prompt ('Введи число от 0 до 9?');
+
+if (num 5 => 9) {
+    function printMessage() {
+        alert('Угадал!');
+    }
+} else {
+    function printMessage() {
+        alert('Не угадал!');
+    }
+}
+if (age < 0) {
+    function printMessage() {
+        console.log('Вы ввели неправильное значение');
+    }
+}
+printMessage();
 
 //Задача 8
 /*let letters = 'abcdef';

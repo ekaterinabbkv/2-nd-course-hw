@@ -1,127 +1,107 @@
-//Задание 1
+//Задача 1
+/*const numbs = [1, 5, 4, 10, 0, 3];
 
-/*function min(a , b) {
-    if (a < b) {
-      return a;  
-    } else {
-        return b;
+for (let i = 0; i < numbs.length; i++) {
+    if (numbs[i] == 10) break;
+
+    console.log(numbs[i]);
+}*/
+
+//Задача 2
+/*const numbs = [1, 5, 4, 10, 0, 3];
+
+const i = numbs.indexOf(4)
+console.log(i)*/
+
+//Задача 3
+/*let num = [1, 3, 5, 10, 20];
+num = num.join(' ');
+console.log(num);*/
+
+//Задача 4
+/*let arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
+
+for (let i = 1; i < 3; i++) {
+    arr[i] = []; 
+    
+    for (let j = 0; j < 3; j++) {
+        arr[i].push(1); 
     }
 }
+console.log(arr);*/
 
-console.log(min(8, 4));*/
+//Задача 5
+/*let nums = [1, 1, 1];
+nums.push('2, 2, 2');
+console.log(nums);*/
 
-//Задание 2
+//Задача 6
+/*let arr = [9, 8, 7, 'a', 6, 5];
+arr = arr.sort();
+console.log(arr.pop());
+console.log(arr);*/
 
-/*function num(c) {
-    if (c % 2 == 0) {
-      return ('Число четное');  
-    } else {
-        return ('Число нечетное');
+//Задача 7
+
+[9, 8, 7, 6, 5];
+
+//Задача 8
+/*let letters = 'abcdef';
+letters = letters.split('');
+letters.reverse();
+letters = letters.join('');
+console.log(letters);*/
+
+//Задача 9
+/*let arr = [1, 2, 3,];
+let num = [4, 5, 6];
+let res = arr.concat(num);
+console.log(res);*/
+
+//Задача 10 ПЕРЕПРОВЕРЬ
+/*let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = 0;
+for (let i = 0; i < array.length; i++) {
+  result += array[i];
+}
+console.log(result);*/
+
+//Задача 11
+/*let num = [2, 4, 6];
+let numSquare = num.map((num) => num * num);
+console.log(numSquare);*/
+
+//Задача 12
+/*let getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+let wordLenght = getLengthWords.map((word) => {
+    return word.length;
+})
+
+console.log(wordLenght);*/
+
+//Задача 13
+/*let nums = [-1, 0, 5, -10, 56];
+let num = [-25, 25, 0, -1000, -2];
+function filterPositive(array) {
+    array.forEach(function(item){
+        if(item < 0){
+            console.log(item);
+        }
+      });
     }
-}
-
-console.log(num(9));*/
-
-//Задание 3
-//3.1
-
-/*function num(i) {
-    i**2;
-}
-
-console.log(num(10));*/
-
-//3.2
-
-/*function num(i) {
-    return (i ** 2);
-}
-console.log(num(10));*/
-
-//Задание 4
-
-/*let age = prompt ('Сколько вам лет?');
-
-if (age <= 12) {
-    function printMessage() {
-        console.log('Привет, друг!');
-    }
-} else {
-    function printMessage() {
-        console.log('Добро пожаловать!');
-    }
-}
-if (age < 0) {
-    function printMessage() {
-        console.log('Вы ввели неправильное значение');
-    }
-}
-printMessage();*/
-
-//Задание 5
-
-/*function num(a , b) {
-
-    if (isNaN(a) || isNaN(b)) {
-        
-        return 'Одно или оба значения не являются числом';
-
-    }
-        else {
-
-        return a * b;
-
-    }
-
-}
-
-console.log(num(4 , 5));*/
+    
+    filterPositive(nums);
+    filterPositive(num);*/
 
 
-//Задание 6
-
-/*let num = prompt ('Введите число');
-
-if (isNaN(num)) {
-    function answer(params) {
-        console.log('Переданный параметр не является числом');
-    }
-} else {
-    function answer(params) {
-        console.log(`${num} в кубе равняется ${num ** 3}`);
-    }
-}
-answer();*/
-
-//Задание 7
-
-/*function getArea() {
-    return 3.14 * this.radius **2; 
-}
-
-function getPerimeter() {
-    return 2 * 3.14 * this.radius;
-}
-
-const circle1 = {
-    radius: 10,
-    getAreaRheuf: getArea,
-    getPerimeterRheuf: getPerimeter,
-};
-
-const circle2 = {
-    radius: 15,
-    getAreaRheuf: getArea,
-    getPerimeterRheuf: getPerimeter,
-};
-
-console.log(circle1.getAreaRheuf());
-console.log(circle1.getPerimeterRheuf());
-console.log(circle2.getAreaRheuf());
-console.log(circle2.getPerimeterRheuf());*/
 
 
-//Задание 8
+
+
+
+
+
+//onclick
 
 function seasons() {
     let answer = prompt('Введите номер месяца (от 1 до 12)');

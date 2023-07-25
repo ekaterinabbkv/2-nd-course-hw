@@ -51,6 +51,15 @@ console.log(getRandomInt(1 , 10));*/
 
 //Задача 6
 
+let a = (max) => {
+    let arr = new Array();
+    while (arr.length < Math.floor(max / 2)){
+        arr.push(Math.round (Math.random() * (max - 1)) + 1);
+    }
+    console.log(arr); 
+}
+
+a(15);
 
 //Задание 7
 

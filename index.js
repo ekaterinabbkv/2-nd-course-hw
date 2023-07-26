@@ -51,15 +51,14 @@ console.log(getRandomInt(1 , 10));*/
 
 //Задача 6
 
-let a = (max) => {
+/*let a = (max) => {
     let arr = new Array();
     while (arr.length < Math.floor(max / 2)){
         arr.push(Math.round (Math.random() * (max - 1)) + 1);
     }
     console.log(arr); 
 }
-
-a(15);
+a(15);*/
 
 //Задание 7
 
@@ -102,7 +101,29 @@ console.log("время: " + hour + ":" + minute + ":" + second);*/
 
 //Задание 11
 
+function memorizeWords() {
+    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    words = words.sort(() => Math.random() - 0.5);
+    
+    alert('Запомни слова:' ${words});
 
+    const wordsOne = prompt ('Какое было первое слово?');
+
+    const wordsTwo = prompt ('Какое было последнее слово?');
+
+    if (wordsOne == list[0] && frutiesTwo === list[list.length-1]) {
+        alert(Угадал)
+
+    } else if (wordsOne == list[0]) {
+        alert('Вы были близки к победе!');
+
+    } else if (wordsTwo === list[list.length-1]) {
+        alert('Вы были близки к победе!');
+
+    } else {
+        alert('Не угадал');
+    }
+}
 
 
 
@@ -112,7 +133,7 @@ console.log("время: " + hour + ":" + minute + ":" + second);*/
 
 //onclick
 
-function seasons() {
+/*function seasons() {
     let answer = prompt('Введите номер месяца (от 1 до 12)');
     
     if (answer == 12 || answer == 1 || answer == 2) {
@@ -130,4 +151,4 @@ function seasons() {
     else {
         alert('Вы ввели не подходящее значение');
     }        
-}
+}*/

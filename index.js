@@ -105,19 +105,19 @@ function memorizeWords() {
     let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
     words = words.sort(() => Math.random() - 0.5);
     
-    alert('Запомни слова:' ${words});
+    alert(`Запомни слова: ${words}`);
 
     const wordsOne = prompt ('Какое было первое слово?');
 
     const wordsTwo = prompt ('Какое было последнее слово?');
 
-    if (wordsOne == list[0] && frutiesTwo === list[list.length-1]) {
-        alert(Угадал)
+    if (wordsOne === words[0] && wordsTwo === words[words.length-1]) {
+        alert('Угадал');
 
-    } else if (wordsOne == list[0]) {
+    } else if (wordsOne === words[0]) {
         alert('Вы были близки к победе!');
 
-    } else if (wordsTwo === list[list.length-1]) {
+    } else if (wordsTwo === words[words.length-1]) {
         alert('Вы были близки к победе!');
 
     } else {
@@ -128,12 +128,9 @@ function memorizeWords() {
 
 
 
-
-
-
 //onclick
 
-/*function seasons() {
+function seasons() {
     let answer = prompt('Введите номер месяца (от 1 до 12)');
     
     if (answer == 12 || answer == 1 || answer == 2) {
@@ -151,4 +148,4 @@ function memorizeWords() {
     else {
         alert('Вы ввели не подходящее значение');
     }        
-}*/
+}

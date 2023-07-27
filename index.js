@@ -1,117 +1,129 @@
 //Задача 1
-/*const numbs = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < numbs.length; i++) {
-    if (numbs[i] == 10) break;
-
-    console.log(numbs[i]);
-}*/
+/*let str = 'Строка';
+console.log(str.toUpperCase());*/
 
 //Задача 2
-/*const numbs = [1, 5, 4, 10, 0, 3];
 
-const i = numbs.indexOf(4)
-console.log(i)*/
+/*let animals = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+let search = 'ко';
+animals.forEach((animal) => {
+    if (animal.toLowerCase().startsWith(search.toLowerCase())) {
+		console.log(animal);
+	}
+});*/
+
+/*let products = ['яблоко', 'груша', 'гриб', 'огурец'];
+let search = 'гру';
+products.forEach((product) => {
+    if (product.toLowerCase().startsWith(search.toLowerCase())) {
+		console.log(product);
+	}
+});*/
+
+/*let buildings = ['Дом', 'Банк', 'Больница', 'Театр'];
+let search = 'кино';
+buildings.forEach((building) => {
+    if (building.toLowerCase().startsWith(search.toLowerCase())) {
+		console.log(building);
+	}
+});*/
 
 //Задача 3
-/*let num = [1, 3, 5, 10, 20];
-num = num.join(' ');
-console.log(num);*/
+
+/*console.log(Math.floor(32.58884));
+console.log(Math.ceil(32.58884));
+console.log(Math.round(32.58884));*/
 
 //Задача 4
-/*let arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
 
-for (let i = 1; i < 3; i++) {
-    arr[i] = []; 
-    
-    for (let j = 0; j < 3; j++) {
-        arr[i].push(1); 
+/*function minmax(...nums) {
+    return [Math.min(...nums), Math.max(...nums)];
     }
-}
-console.log(arr);*/
+console.log(minmax(52, 53, 49, 77, 21, 32));*/
 
 //Задача 5
-/*let nums = [1, 1, 1];
-nums.push('2, 2, 2');
-console.log(nums);*/
+
+/*function getRandomInt(minValue, maxValue) {
+    return Math.round(Math.random() * maxValue);
+}
+console.log(getRandomInt(1 , 10));*/
 
 //Задача 6
-/*let arr = [9, 8, 7, 'a', 6, 5];
-arr = arr.sort();
-console.log(arr.pop());
-console.log(arr);*/
 
-//Задача 7
-
-/*let arr = [9, 8, 7, 6, 5];
-
-let num = prompt ('Введи число от 0 до 9?');
-
-if (num >= 5 && num <= 9) {
-    function numSearch() {
-        alert('Угадал!');
+/*let a = (max) => {
+    let arr = new Array();
+    while (arr.length < Math.floor(max / 2)){
+        arr.push(Math.round (Math.random() * (max - 1)) + 1);
     }
-} else {
-    function numSearch() {
-        alert('Не угадал!');
-    }
+    console.log(arr); 
 }
-numSearch();*/
+a(15);*/
 
-//Задача 8
-/*let letters = 'abcdef';
-letters = letters.split('');
-letters.reverse();
-letters = letters.join('');
-console.log(letters);*/
+//Задание 7
 
-//Задача 9
-/*let arr = [1, 2, 3,];
-let num = [4, 5, 6];
-let res = arr.concat(num);
-console.log(res);*/
-
-//Задача 10 
-/*let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let result = 0;
-for (let i = 0; i < array.length; i++) {
-  result += array[i];
+/*function getRandomInt(minValue, maxValue) {
+    return Math.round(Math.random() * (maxValue - minValue) + minValue);
 }
-console.log(result);*/
+console.log(getRandomInt(2 , 15));*/
 
-//Задача 11
-/*let num = [2, 4, 6];
-let numSquare = num.map((num) => num * num);
-console.log(numSquare);*/
+//Задание 8
 
-//Задача 12
-/*let getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-let wordLenght = getLengthWords.map((word) => {
-    return word.length;
-})
+/*let myDate = new Date;
+console.log(myDate);*/
 
-console.log(wordLenght);*/
+//Задание 9
 
-//Задача 13
-/*let nums = [-1, 0, 5, -10, 56];
-let num = [-25, 25, 0, -1000, -2];
+/*let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);*/
 
-function filterPositive(array) {
-    array.forEach(function(item){
+//Задание 10
 
-    if(item < 0){
-            console.log(item);
-    }
-    });
-    }
+/*const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+let myDate = new Date();
+let fullDate = "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + " - это " + days[myDate.getDay()];
+console.log(fullDate);
+
+let hour = myDate.getHours();
+let minute = myDate.getMinutes();
+let second = myDate.getSeconds();
+
+if (minute < 10) {
+    minute = "0" + minute;
+}
+if (second < 10) {
+    second = "0" + second;
+}
+console.log("время: " + hour + ":" + minute + ":" + second);*/
+
+//Задание 11
+
+function memorizeWords() {
+    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    words = words.sort(() => Math.random() - 0.5);
     
-filterPositive(nums);
-filterPositive(num);*/
+    alert(`Запомни слова: ${words}`);
 
+    const wordsOne = prompt ('Какое было первое слово?');
 
+    const wordsTwo = prompt ('Какое было последнее слово?');
 
+    if (wordsOne === words[0] && wordsTwo === words[words.length-1]) {
+        alert('Угадал');
 
+    } else if (wordsOne === words[0]) {
+        alert('Вы были близки к победе!');
 
+    } else if (wordsTwo === words[words.length-1]) {
+        alert('Вы были близки к победе!');
+
+    } else {
+        alert('Не угадал');
+    }
+}
 
 
 

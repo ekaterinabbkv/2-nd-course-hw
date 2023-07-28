@@ -71,6 +71,7 @@ delayForSecond(function () {
 				if(cb) { 	cb(); }
 
     }, 1000)
+    
 }
 
 function sayHi (name) {

@@ -1,4 +1,4 @@
-//Задача 1 ПРОВЕРИТЬ
+//Задача 1 
 /*const people = [
    { name: 'Глеб', age: 29 },
    { name: 'Анна', age: 17 },
@@ -7,11 +7,9 @@
 ];
 
 people.sort((a, b) => a.age > b.age ? 1 : -1);
-
-
 console.log(people.sort());*/
 
-//Задача 2 НЕ СДЕЛАНО
+//Задача 2 
 
 /*function isPositive(el) {
     if (el > 0) {

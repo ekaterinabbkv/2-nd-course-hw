@@ -1,129 +1,93 @@
-//Задача 1
+//Задача 1 
+/*const people = [
+   { name: 'Глеб', age: 29 },
+   { name: 'Анна', age: 17 },
+   { name: 'Олег', age: 7 },
+   { name: 'Оксана', age: 47 }
+];
 
-/*let str = 'Строка';
-console.log(str.toUpperCase());*/
+people.sort((a, b) => a.age > b.age ? 1 : -1);
+console.log(people.sort());*/
 
-//Задача 2
+//Задача 2 
 
-/*let animals = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-let search = 'ко';
-animals.forEach((animal) => {
-    if (animal.toLowerCase().startsWith(search.toLowerCase())) {
-		console.log(animal);
-	}
-});*/
+/*function isPositive(el) {
+    if (el > 0) {
+        return el;    
+    }
+    }
+    function isMale(el) {
+        if (el.gender === 'male') {
+            return el;
+        }
+    }
+    function filter(arr, ruleFunction) {
+        const output = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (ruleFunction(arr[i])) 
+                output.push((ruleFunction(arr[i])));   
+        }
+        return output;
+    }
+    
+    console.log(filter([3, -4, 1, 9], isPositive)); 
+    
+    const people = [
+       {name: 'Глеб', gender: 'male'},
+       {name: 'Анна', gender: 'female'},
+       {name: 'Олег', gender: 'male'},
+       {name: 'Оксана', gender: 'female'}
+    ];
+    
+    console.log(filter(people, isMale)); */
 
-/*let products = ['яблоко', 'груша', 'гриб', 'огурец'];
-let search = 'гру';
-products.forEach((product) => {
-    if (product.toLowerCase().startsWith(search.toLowerCase())) {
-		console.log(product);
-	}
-});*/
+//Задача 3 
 
-/*let buildings = ['Дом', 'Банк', 'Больница', 'Театр'];
-let search = 'кино';
-buildings.forEach((building) => {
-    if (building.toLowerCase().startsWith(search.toLowerCase())) {
-		console.log(building);
-	}
-});*/
+/*console.log(new Date);
 
-//Задача 3
+let timerId = setInterval(() => console.log(new Date), 3000);
+setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, 30000);*/
 
-/*console.log(Math.floor(32.58884));
-console.log(Math.ceil(32.58884));
-console.log(Math.round(32.58884));*/
 
 //Задача 4
 
-/*function minmax(...nums) {
-    return [Math.min(...nums), Math.max(...nums)];
-    }
-console.log(minmax(52, 53, 49, 77, 21, 32));*/
-
-//Задача 5
-
-/*function getRandomInt(minValue, maxValue) {
-    return Math.round(Math.random() * maxValue);
-}
-console.log(getRandomInt(1 , 10));*/
-
-//Задача 6
-
-/*let a = (max) => {
-    let arr = new Array();
-    while (arr.length < Math.floor(max / 2)){
-        arr.push(Math.round (Math.random() * (max - 1)) + 1);
-    }
-    console.log(arr); 
-}
-a(15);*/
-
-//Задание 7
-
-/*function getRandomInt(minValue, maxValue) {
-    return Math.round(Math.random() * (maxValue - minValue) + minValue);
-}
-console.log(getRandomInt(2 , 15));*/
-
-//Задание 8
-
-/*let myDate = new Date;
-console.log(myDate);*/
-
-//Задание 9
-
-/*let currentDate = new Date();
-currentDate.setDate(currentDate.getDate() + 73);
-console.log(currentDate);*/
-
-//Задание 10
-
-/*const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
-let myDate = new Date();
-let fullDate = "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + " - это " + days[myDate.getDay()];
-console.log(fullDate);
-
-let hour = myDate.getHours();
-let minute = myDate.getMinutes();
-let second = myDate.getSeconds();
-
-if (minute < 10) {
-    minute = "0" + minute;
-}
-if (second < 10) {
-    second = "0" + second;
-}
-console.log("время: " + hour + ":" + minute + ":" + second);*/
-
-//Задание 11
-
-function memorizeWords() {
-    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    words = words.sort(() => Math.random() - 0.5);
+/*function delayForSecond(callback) {
     
-    alert(`Запомни слова: ${words}`);
-
-    const wordsOne = prompt ('Какое было первое слово?');
-
-    const wordsTwo = prompt ('Какое было последнее слово?');
-
-    if (wordsOne === words[0] && wordsTwo === words[words.length-1]) {
-        alert('Угадал');
-
-    } else if (wordsOne === words[0]) {
-        alert('Вы были близки к победе!');
-
-    } else if (wordsTwo === words[words.length-1]) {
-        alert('Вы были близки к победе!');
-
-    } else {
-        alert('Не угадал');
-    }
+    setTimeout(() => {
+        callback();
+    }, 1000);
 }
+
+delayForSecond(function () {
+  console.log('Привет, Глеб!');
+})*/
+
+//Задача 5 
+
+
+/*function delayForSecond(cb) {
+    setTimeout(() => {
+        console.log('Прошла одна секунда');
+				if(cb) { 	cb(); }
+
+    }, 1000)
+    
+}
+
+function sayHi (name) {
+    console.log(`Привет, ${name}!`);
+}
+
+// Код выше менять нельзя
+
+// Нужно изменить код ниже:
+
+delayForSecond((cb) => sayHi('Глеб'));*/
+
+    
+
+
+
 
 
 
@@ -148,4 +112,28 @@ function seasons() {
     else {
         alert('Вы ввели не подходящее значение');
     }        
+}
+
+function memorizeWords() {
+    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    words = words.sort(() => Math.random() - 0.5);
+    
+    alert(`Запомни слова: ${words}`);
+
+    const wordsOne = prompt ('Какое было первое слово?');
+
+    const wordsTwo = prompt ('Какое было последнее слово?');
+
+    if (wordsOne === words[0] && wordsTwo === words[words.length-1]) {
+        alert('Угадал');
+
+    } else if (wordsOne === words[0]) {
+        alert('Вы были близки к победе!');
+
+    } else if (wordsTwo === words[words.length-1]) {
+        alert('Вы были близки к победе!');
+
+    } else {
+        alert('Не угадал');
+    }
 }
